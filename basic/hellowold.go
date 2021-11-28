@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	//variavle decalaration start with :=
+	x := 2
+	fmt.Println(x)
+	// variable assign after declaration =
+	x = 2
+	fmt.Println(x)
 
-	fmt.Println("Hello world!")
 }
